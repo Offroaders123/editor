@@ -1,5 +1,6 @@
 import { ImageTab } from '../Editors/Image/ImageTab'
 import { TargaTab } from '../Editors/Image/TargaTab'
+import { NBTTab } from '../Editors/NBT/NBTTab'
 import { SoundTab } from '../Editors/Sound/SoundTab'
 import { TextTab } from '../Editors/Text/TextTab'
 import { TreeTab } from '../Editors/TreeEditor/Tab'
@@ -12,6 +13,7 @@ export class TabProvider {
 		ImageTab,
 		TargaTab,
 		SoundTab,
+		NBTTab,
 	])
 	static get tabs() {
 		return [...this._tabs].reverse()
